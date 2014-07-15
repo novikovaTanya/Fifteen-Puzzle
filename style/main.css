@@ -11,6 +11,10 @@ button {
 	width: 50px;
 }
 
+#table {
+	margin: 0 auto;
+}
+
 #table button:hover {
 	background-color: #CEE4D5;
 }
@@ -36,6 +40,13 @@ td div {
 }
 
 #header {
-	padding-left: 59px;
-	padding-bottom: 15px;
+	padding: 15px;
+	width: 210px;
+	margin: 0 auto;
+}
+
+#counter {
+	width: 90px;
+	display: inline-block;
+	margin-left: 10px;
 }

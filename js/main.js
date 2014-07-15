@@ -31,7 +31,7 @@ function createButton(id) {
 }
 
 function replace (id) {
-	score++;
+	document.getElementById("counter").innerHTML = ++score;
 	var empty = document.getElementById("empty");
 	var newEmpty = document.getElementById(id);
 	empty.appendChild(newEmpty.childNodes[0]);
