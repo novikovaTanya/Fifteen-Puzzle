@@ -1,0 +1,41 @@
+button {
+	background-color:#E9EEEC;
+	font-weight:bold;
+	position: relative;
+	outline: none;
+	color: #777777;
+	border-style: none;
+	font-size: 15px;
+	border-radius: 5px;
+	height: 50px;
+	width: 50px;
+}
+
+#table button:hover {
+	background-color: #CEE4D5;
+}
+
+#save {
+	border-width: 1px;
+	height:30px;
+	width:100px;
+}
+
+.over {
+	background-color:red;
+}
+
+[draggable] {
+	cursor: move;
+}
+
+td div {
+	width: 50px;
+	height: 50px;
+	/*background-color:black;*/
+}
+
+#header {
+	padding-left: 59px;
+	padding-bottom: 15px;
+}
